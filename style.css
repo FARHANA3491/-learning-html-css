@@ -4,19 +4,22 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: rgb(226, 221, 230);
+}
 
 .navbar ul{
     list-style: none;
     /* float: right; */
     background-color: rgb(189, 136, 238);
     padding: 10px;
-    height: 50px;
+    height: 70px;
     width: 100%;
 }
 
 .navbar ul li{
-    float: right;
-    margin-right: 12px;
+    display: inline-block;
+    margin-right: 22px;
 }
 
 .navbar ul li a{
@@ -26,9 +29,50 @@
 }
 
 .name{
-    margin-right: auto;
+    margin-left: 20px;
+    font-weight: bold;
     color: white;
     font-size: 20px;
     text-transform: uppercase;
     justify-content: center;
+    
 }
+
+.col{
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 550px;
+}
+
+.about:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .imgs{
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+
+  .col h1{
+    margin-top: 30px;
+    font-weight: bold;
+    color: rgb(104, 29, 141);
+    font-size: 40px;
+    text-transform: uppercase;
+    justify-content: center;
+    
+  }
+
+  .col p{
+    justify-content: center;
+    line-height: 1.8;
+    font-size: 20px;
+    text-justify: inter-word;
+  }
+
+  .ach{
+    margin-top: 30px;
+  }
