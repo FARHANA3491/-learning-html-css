@@ -76,3 +76,78 @@ body{
   .ach{
     margin-top: 30px;
   }
+
+  .about ol li{
+    margin-left: 40px;
+    font-size: 20px;
+    line-height: 1.5;
+  }
+
+  .custom-table {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid black;
+    width: 90%;
+    margin-right: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .custom-table th,
+  .custom-table td {
+    padding: 10px;
+    border: 1px solid black;
+  }
+
+  .head{
+    margin-top: 30px;
+    font-weight: bold;
+    color: rgb(104, 29, 141);
+    font-size: 40px;
+    text-transform: uppercase;
+    justify-content: center;
+    margin-left: 30px;
+  }
+
+  .exp p{
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 30px 10px 10px 30px;
+  }
+
+  form{
+    margin-left: 30px;
+    
+  }
+
+  form label{
+    font-size: 20px;
+    font-weight: bold;
+  }
+ .fm input, .fm textarea{
+    width: 50%;
+    padding: 15px;
+  }
+  .fm{
+    margin-top: 30px;
+  }
+  .sub a{
+    
+    background-color: rgb(136, 66, 201);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100px;
+    text-decoration: none;
+  }
+  .foot{
+    margin-top: 30px;
+    background-color: #d595fd;
+    padding: 20px;
+    text-align: center;
+  }
+
+  
+  
